@@ -1,2 +1,2 @@
 I am Mou Ziyang
-My major is Applied Maths
+My major is Applied Maths 

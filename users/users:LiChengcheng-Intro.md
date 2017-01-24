@@ -1,0 +1,1 @@
+This is Li Chengcheng, a year two quantitative finance major. I am trying to be better at programming.

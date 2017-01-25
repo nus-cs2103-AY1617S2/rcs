@@ -1,1 +1,1 @@
-**some** info about *myself*
+**Something** about *myself*

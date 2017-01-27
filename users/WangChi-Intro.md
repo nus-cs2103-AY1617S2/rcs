@@ -1,0 +1,1 @@
+Wayne, Leo, M, suck at coming up with random "interesting facts" for classes.

@@ -1,0 +1,1 @@
+hi kenny science cs minor

@@ -1,0 +1,2 @@
+Hello
+Random Stranger

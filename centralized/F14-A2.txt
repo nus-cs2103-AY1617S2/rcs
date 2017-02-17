@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-hi
-xinyi edited 
-=======
-a
->>>>>>> de5c01caa7e037c92dc648dd49253b31c1fffda1
+ello

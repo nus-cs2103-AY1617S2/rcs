@@ -1,0 +1,125 @@
+### import statements
+import numpy as np
+import scipy as sp
+import pandas as pd
+import matplotlib.pyplot as plt
+import time as _time
+from sklearn.cluster import KMeans
+from sklearn.manifold import TSNE
+
+### Some static variables here
+SPACE = '...........................................'
+y_TOP_BOUND = 0.092
+y_LOWER_BOUND = -0.085
+time0 = _time.time()
+def time():
+    return _time.time() - time0
+
+print('Training Data: 2SigmaFinancialModelling.train')
+print('Importing training and test data sets......')
+train = pd.read_hdf("train2.h5")
+print('%.2g sec'% time())
+print
+
+print('Setting up the enviornment for you.........')
+#trainI <- training set info 'id','timestamp','y'
+#train  <- training set variables not in trainI
+
+### Comment away if not normalizing
+mu = (train.max() + train.min())/2
+sigma = train.max() - train.min()
+train = 2*(train-mu)/sigma
+
+means = train.mean(axis=0)
+info = ['id','timestamp','y']
+trainI = train[info]
+col = [c for c in train.columns if c not in info]
+excl = []
+col = [c for c in col if c not in excl]
+train = train[col]
+
+n = train.isnull().sum(axis=1)
+for c in train.columns:
+    train[c + '_nan'] = train[c].isnull()
+train = train.fillna(means)
+train['num_null'] = n
+print('%.2g sec'% time())
+print
+
+### Select only ~2000 examples for visualization
+rand = np.random.rand(len(train)) < (2000.0/len(train))
+train = train[rand]
+
+print('Training on KMeans kernelling..............')
+k = 12
+modelKM = KMeans(n_clusters=k, n_init=20).fit(train)
+colors = modelKM.labels_
+print('%.2g sec'% time())
+print
+
+n_iter = 5000
+y = pd.read_hdf('train2.h5').y[rand]
+low_cut = -0.05
+high_cut = 0.05
+
+for i in [12,25,50,100,200]:
+    print('Training and fitting t-SNE with perplexity = {}'.format(i))
+    modelTSNE = TSNE(n_components=2, n_iter=n_iter, random_state=0, perplexity=i)
+    np.set_printoptions(suppress=True)
+    Y = modelTSNE.fit_transform(train)
+
+    print('%.2g sec'% time())
+    print
+    plt.scatter(Y[:,0],Y[:,1], c=colors)
+    plt.title('t-SNE with perplexity = {}'.format(i))
+    plt.show()
+
+    plt.scatter(Y[:,0], Y[:,1], c=y)
+    plt.title('y visualization at p = {}'.format(i))
+    plt.show()
+
+    plt.scatter(Y[:,0], Y[:,1], c=y.clip(low_cut,high_cut))
+    plt.title('y with cutting at p = {}'.format(i))
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Some stuff for calculations later on
+# for calculating result
+# @params (<vector_like>, <vector_like>)
+def Rscore(pred, real):
+    diff = np.subtract(real,real.mean())
+    variance = sum(np.multiply(diff,diff))
+    diff = np.subtract(pred, real)
+    sqdiff = sum(np.multiply(diff,diff))
+    rsq = 1 - (sqdiff/variance)
+    if rsq < 0:
+        return - np.sqrt(-rsq)
+    else:
+        return np.sqrt(rsq)
+
+# for calculating total square errors
+# @params (<vector_like>, <vector_like>)
+def sqErr(x1 , x2):
+    diff = np.array(x1)-np.array(x2)
+    sqerr = np.multiply(diff,diff)
+    return np.nansum(sqerr)
+
+
+
+
+
+
+
+

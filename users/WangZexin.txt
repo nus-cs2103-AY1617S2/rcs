@@ -1,0 +1,47 @@
+A $1 Trillion Slice Of Mortgage Worry
+AnnaMaria Andriotis
+By Annamaria Andriotis
+1002 字
+2017 年 1 月 20 日
+The Wall Street Journal (Asia Edition)
+AWSJ
+A1
+英文
+Copyright 2017 Dow Jones & Company, Inc. All Rights Reserved.
+Bonds backed by certain risky single-family mortgages topped $1 trillion for the first time in November, crossing that threshold amid rising warnings about one corner of the U.S. housing market.
+
+These mortgages are insured by the Federal Housing Administration and typically go to borrowers with small down payments and lower credit scores. Banks have pulled back from issuing those loans and from packaging them into bonds sold to investors.
+
+The result: In the first three quarters of 2016, banks accounted for 9% of mortgage dollars originated by the FHA's top 50 lenders, versus 62% for all of 2010, according to Inside Mortgage Finance. Nonbank lenders accounted for 80% of mortgage bonds backed by single-family FHA loans in July 2016, versus 9% the same month in 2010.
+
+That is worrying the Government National Mortgage Association, or Ginnie Mae, the government-owned corporation that guarantees the bonds backed by FHA loans. Ginnie Mae head Ted Tozer, who is leaving his position Friday, has said nonbank lenders may lack the financial wherewithal to withstand future stress in housing. In the worst-case scenario, problems could saddle taxpayers with losses.
+
+"This is the biggest shift in mortgage lending since the savings-and-loans debacle in the 1980s," Mr. Tozer said in a recent interview with The Wall Street Journal. The biggest nonbank FHA lenders include companies such as Quicken Loans Inc., Freedom Mortgage Corp. and Guild Mortgage Co.
+
+Ben Carson, President-elect Donald Trump's nominee to head the Department of Housing and Urban Development, weighed in on this issue in written testimony to the Senate Banking Committee earlier this month. Dr. Carson suggested heavy-handed regulation was to blame for banks' retreat from this market. "Banks are loath to participate in low-down payment programs through FHA for fear of getting sued if the borrowers default," he wrote.
+
+The FHA market is likely to become a point of renewed debate in Washington. A decision this month by the Obama administration to lower fees that the FHA charges for its insurance led congressional Republicans to argue taxpayer protections were being weakened.
+
+Mortgage bankers say Mr. Tozer's concerns, while well-meaning, are overblown. "It would take a significant rise in delinquencies to get to the place he's talking about," said Pete Mills, senior vice president of residential policy and member engagement at the Mortgage Bankers Association.
+
+Mr. Tozer's "concerns are valid in general because banks do have deeper pockets than nonbanks," said David Battany, executive vice president of capital markets at Guild Mortgage. But he added, "We view that we are adequately capitalized to make advances in high-default scenarios."
+
+Stanley Middleman, chief executive of Freedom Mortgage, said, "Freedom like other nonbanks has filled a void in home financing that many banks have been unable or unwilling to fill."
+
+While smaller than the market for mortgages guaranteed by Fannie Mae and Freddie Mac, the FHA market is the only sizable subprime-mortgage market that has existed since the housing crash. The FHA allows for credit scores as low as 500 on a scale that tops out at 850. The average credit score among borrowers who received FHA loans last year was 669, far below the average of 743 for Fannie and Freddie mortgages, according to mortgage-data firm Ellie Mae. The FHA average score has been mostly declining every year since 2012.
+
+FHA loans have also been the worst performers among all major mortgages for years. Just over 4%of FHA mortgages were at least 90 days past due in October, according to the FHA. That compares with 2% for mortgages purchased and eligible for purchase by Fannie Mae and Freddie Mac, according to mortgage-data firm CoreLogic.
+
+Meanwhile, the FHA share of the overall mortgage market is larger than during the last housing boom. In the years leading up to the housing bust, FHA loans accounted for less than 5% of annual mortgage volume. Since the meltdown, the share has ranged from 11% to15% of originations.
+
+That growth has boosted the amount of bonds Ginnie Mae backs.
+
+The $1trillion of outstanding FHA single-family loans in November that it guaranteed compares with $272 billion at the end of 2007. Overall, Ginnie Mae now backs more than $1.7 trillion in bonds, which includes loans backed by other agencies such as the Department of Veterans Affairs as well as the FHA.
+
+The FHA market poses risks to the government and taxpayers on several levels. First, the FHA insures mortgages, promising to make lenders whole if homeowners default. Ginnie Mae then guarantees the mortgage bonds backed by these loans so bondholders won't be left without payments when borrowers default. Without it, bond buyers would likely demand higher yields, leading to higher costs for borrowers.
+
+The shift to nonbank lenders has concerned one ratings firm. Nonbank lenders' ability to get new financing could become constrained in a rising delinquency environment, said Warren Kornfeld, senior vice president at Moody's Investors Service. The funding issue arises because nonbanks don't hold deposits. So they rely on short-term financing, often from banks. That can dry up in stressed times.
+
+Mr. Tozer has been trying to get banks back into the market. He convened an invitation-only meeting with some 100 mortgage executives from banks and nonbanks as well as federal regulators last summer. The summit's purpose, he said, was to acknowledge risks posed by nonbanks' increasing market share.
+
+But big banks aren't eager to return. J.P. Morgan Chase & Co., the nation's largest bank by assets, isn't among the 50 largest FHA lenders. In 2013, it was the third largest, according to Inside Mortgage Finance. "It simply is too costly and too risky to originate these kinds of mortgages," J.P. Morgan Chase chief James Dimon wrote in his shareholders letter last year. He added that FHAloans default frequently.

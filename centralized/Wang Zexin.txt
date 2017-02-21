@@ -1,0 +1,1 @@
+ST = S0 * exp(\sigma ^ 2 / 2 * T)

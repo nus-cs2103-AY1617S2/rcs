@@ -1,4 +1,1 @@
 Hello this is my first time committing
-
-It's common practice to write commit message in imperative mood.
-e.g. Add abc.txt rather than Added abc.txt or Adding abc.txt.
